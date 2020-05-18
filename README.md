@@ -251,6 +251,7 @@ def show
 end
 ```
 
+
 When using `find_by`, if the record is not found, `nil` is returned. As we have 
 it set up, if `params[:id]` does not match a valid id, `nil` will be assigned to 
 the `bird` variable.
